@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kalam/v11/YA9Qr0Wd4kDdMtD6GjLMkiQqtbGs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background-color: pink;
+  background-image: url("/Users/rosephillips/Documents/DevProjects/tinx-maisie/resources/images/pinkyellowpurple.png");
+
+  background-position: 50% 20%;
+  color: 132227;
+}
+
+.header {}
+
+#logo {
+  font-size: 40px;
+  color: rgba(230, 57, 70, 1.0);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav {
+  background-color: #132227;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 16px;
+}
+
+nav li {
+  display: inline;
+  padding: 8px 16px;
+}
+
+nav a {
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: lighter;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  min-width: 300px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+th, td {
+  font-size: 18px;
+  width: 50%;
+  height: 35px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+td {
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tinx-icon {
+  position: fixed;
+  left: 10px;
+  bottom: 0px;
+  width: 20%;
+}
+
+.maisie-icon {
+  position: fixed;
+  right: 10px;
+  bottom: 0px;
+  width: 20%;
+}
